@@ -1,12 +1,10 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import PreMoveInPortalWireframe from "./App";
 
-console.log("[main] boot"); // should appear in console
-
-ReactDOM.createRoot(document.getElementById("root")!).render(
-  <React.StrictMode>
-    <PreMoveInPortalWireframe />
-  </React.StrictMode>
-);
+export default function PreMoveInPortalWireframe() {
+  return (
+    <div style={{ padding: 24, fontFamily: "ui-sans-serif, system-ui" }}>
+      <h1>SPG Portal — Build OK</h1>
+      <p>If you see this, the app compiled and mounted.</p>
+    </div>
+  );
+}
