@@ -1,9 +1,10 @@
-mport React, { useMemo, useState, useRef, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import React from "react";
 
-// ...[SNIP] For brevity, use the exact code from the canvas version you just approved.
-// Because this document is long, you can copy the latest App.tsx from the canvas into this file.
-
-// NOTE: If you want me to inline the entire file here, say "inline it" and I'll paste the full latest code.
-
-export default function PreMoveInPortalWireframe() { return (<div />) }
+export default function PreMoveInPortalWireframe() {
+  return (
+    <div style={{ padding: 24, fontFamily: "ui-sans-serif, system-ui" }}>
+      <h1>SPG Portal — Build OK</h1>
+      <p>If you see this, the app compiled and mounted.</p>
+    </div>
+  );
+}
